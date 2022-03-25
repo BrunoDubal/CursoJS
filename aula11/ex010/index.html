@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>        
+        <h1>Sistema de Multas</h1>
+    </header>
+    <main>
+        <p>Neste rodovia é permitido apenas velocidade <= 60km/h</p>
+        <p>Velocidade do carro <input class='input' type="number" name="txtvel" id="txtvel">km/h</p>
+        <input class='verifica' type="button" value="Verificar" onclick="calcular()">
+    </main>
+    <div id="res">
+
+    </div>
+
+    <script src="calculo.js"></script>
+</body>
+</html>
