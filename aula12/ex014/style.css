@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: rgba(18, 150, 238, 0.829);
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+.p3{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.divimg{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}
